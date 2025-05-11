@@ -1,0 +1,89 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# VSCode settings (optional, if you use VSCode)
+.vscode/
+
+# JetBrains IDEs (PyCharm, CLion, etc.)
+.idea/
+
+# Arduino build files
+*.hex
+*.elf
+*.bin
+*.eep
+*.d
+*.o
+*.map
+*.a
+*.lst
+*.srec
+*.cpp.d
+*.ino.d
+
+# Arduino backup files
+*~ *.bak
+
+# PlatformIO (if you ever use it)
+.pio/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Cache files
+*.cache
+.cache/
+*.pytest_cache/
+
+# Test/report output
+htmlcov/
+coverage.xml
+*.cover
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# MyPy and other Python tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Local config files (if you use them)
+*.local
+*.env
+.env.*
+
+# Node.js (just in case)
+node_modules/
+
+# Backup files
+*.bak
+*.orig
+*.old
