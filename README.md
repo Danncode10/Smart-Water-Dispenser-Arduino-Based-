@@ -31,6 +31,13 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
 
 ## 🔧 How It Works
 
+<p align="center">
+  <img src="thinker.png" alt="Thinker Cad" style="width:100%;">
+</p>
+
+[Click to View Thinker Cad Sketch](https://www.tinkercad.com/things/0Vk9JMShGTC/editel?returnTo=%2Fdashboard&sharecode=c8zzlp6X-QRM2eiFScgn0SDAu4VcAbrWFJp-Gt98vlc&sharecode=LvRLok9xnmrU1RAvZg5lUmCUmOO4Iy1SVve9DZk88KM)
+
+---
 1. **Cup Detection:**
    The ultrasonic sensor continuously measures the distance in front of the dispenser. When a cup comes within a predefined range, the system detects its presence.
 
