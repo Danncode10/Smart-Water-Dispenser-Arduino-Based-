@@ -10,7 +10,7 @@
 * Lester Dann G. Lopez
 * Louise Calado
 * RJ Marvilla
-* Joshua Jing Fernandez
+* Prince Valentino
 ---
 
 A simple and intelligent water dispenser system designed using Arduino, which dispenses water automatically when a cup is detected using an ultrasonic distance sensor. The dispensing mechanism is controlled via a servo motor that pulls a rope tied to the dispenser valve.
