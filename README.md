@@ -38,7 +38,7 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
   <img src="thinker.png" alt="Thinker Cad" style="width:100%;">
 </p>
 
-[Click to View Thinker Cad Sketch](https://www.tinkercad.com/things/0Vk9JMShGTC/editel?returnTo=%2Fdashboard&sharecode=c8zzlp6X-QRM2eiFScgn0SDAu4VcAbrWFJp-Gt98vlc&sharecode=LvRLok9xnmrU1RAvZg5lUmCUmOO4Iy1SVve9DZk88KM)
+[Click to View Thinker Cad Sketch](https://www.tinkercad.com/things/0Vk9JMShGTC-smart-dispenser/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=LvRLok9xnmrU1RAvZg5lUmCUmOO4Iy1SVve9DZk88KM)
 
 ---
 
