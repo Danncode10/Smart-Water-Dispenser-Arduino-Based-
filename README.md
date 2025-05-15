@@ -3,6 +3,7 @@
 # 💧 Smart Water Dispenser (Arduino-Based)
 
 ---
+
 ### Microprocessor and Microcontroller Final Project:
 
 #### Members:
@@ -11,6 +12,7 @@
 * Louise Calado
 * RJ Marvilla
 * Prince Valentino
+
 ---
 
 A simple and intelligent water dispenser system designed using Arduino, which dispenses water automatically when a cup is detected using an ultrasonic distance sensor. The dispensing mechanism is controlled via a servo motor that pulls a rope tied to the dispenser valve.
@@ -28,6 +30,7 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
 * Rope or wire to connect servo to dispenser
 * Breadboard and jumper wires
 * Power supply or USB
+* **16x2 I2C LCD Display**  <!-- new -->
 
 ## 🔧 How It Works
 
@@ -38,6 +41,7 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
 [Click to View Thinker Cad Sketch](https://www.tinkercad.com/things/0Vk9JMShGTC/editel?returnTo=%2Fdashboard&sharecode=c8zzlp6X-QRM2eiFScgn0SDAu4VcAbrWFJp-Gt98vlc&sharecode=LvRLok9xnmrU1RAvZg5lUmCUmOO4Iy1SVve9DZk88KM)
 
 ---
+
 1. **Cup Detection:**
    The ultrasonic sensor continuously measures the distance in front of the dispenser. When a cup comes within a predefined range, the system detects its presence.
 
@@ -47,7 +51,14 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
    * The servo rotates to a specific angle, pulling the rope.
    * This opens the water outlet and starts dispensing.
 
-3. **Stopping the Flow:**
+3. **LCD Feedback and Water Level Monitoring:**  <!-- new -->
+
+   * A 16x2 I2C LCD displays messages to guide the user.
+   * When the cup is detected, the display shows “Filling cup” and the remaining water volume in milliliters.
+   * When no cup is detected, it prompts the user to “Insert cup.”
+   * If the water supply is depleted, it displays “Out of water!”
+
+4. **Stopping the Flow:**
 
    * After a short delay (enough to fill a standard cup), the servo returns to its original position, closing the valve.
    * A **safety timeout** is implemented to automatically stop dispensing if the cup is not removed or the servo fails to return, preventing overflow.
@@ -57,15 +68,15 @@ This project automates water dispensing to reduce spillage, enhance hygiene, and
 * **Automatic Cup Detection**
 * **Servo-Based Valve Control**
 * **Touchless and Hygienic Operation**
+* **16x2 I2C LCD Display for Real-time Feedback and Water Level Monitoring**  <!-- new -->
 * **Safety Timeout to Prevent Overflow**
 * **Compact and Customizable Design**
 
 ## 🧠 Possible Extensions
 
 * Water volume estimation based on timing
-* LCD display or RGB LED feedback
 * Mobile app integration (e.g., via Bluetooth)
-* Water level monitoring in the container
+* Water level monitoring in the container with sensors
 * Machine learning for adaptive dispensing behavior
 
 ## 🛠️ Future Improvements
